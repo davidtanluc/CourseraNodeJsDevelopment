@@ -1,0 +1,5 @@
+
+npm install mongodb --save
+npm install assert --save
+
+npm install mongoose --save

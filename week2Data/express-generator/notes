@@ -1,0 +1,7 @@
+npm install express-generator -g
+
+express node-express-gen
+
+sudo npm install
+
+npm start
