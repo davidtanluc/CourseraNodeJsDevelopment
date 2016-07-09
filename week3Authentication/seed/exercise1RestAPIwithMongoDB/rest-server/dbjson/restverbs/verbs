@@ -1,0 +1,20 @@
+
+(POST)
+http://localhost:3000/dishes
+(GET)
+http://localhost:3000/dishes/57813143e630eec533b9b415
+(PUT)
+http://localhost:3000/dishes/57813143e630eec533b9b415
+(POST)
+http://localhost:3000/dishes/57813143e630eec533b9b415/comments
+(GET)
+http://localhost:3000/dishes/57813143e630eec533b9b415/comments
+(GET)
+http://localhost:3000/dishes/57813143e630eec533b9b415/comments/57813411e630eec533b9b416
+(PUT) Update specific comments
+http://localhost:3000/dishes/57813143e630eec533b9b415/comments/57813411e630eec533b9b416
+(DELETE)
+http://localhost:3000/dishes/57813143e630eec533b9b415/comments/57813497e630eec533b9b417
+
+(DELETEALL)
+http://localhost:3000/dishes

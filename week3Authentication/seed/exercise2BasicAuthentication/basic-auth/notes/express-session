@@ -1,0 +1,47 @@
+npm install express-session session-file-store --save
+
+Server running at http://localhost:3000/
+{ host: 'localhost:3000',
+  connection: 'keep-alive',
+  authorization: 'Basic YWRtaW46cGFzc3dvcmQ=',
+  'upgrade-insecure-requests': '1',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding': 'gzip, deflate, sdch',
+  'accept-language': 'en-US,en;q=0.8',
+  cookie: '_ga=GA1.1.900244108.1434824263; csrftoken=TESUt5Rs6bVa67dlOO9zqrFgQvcdAKN5; Webstorm-1885d8f2=b4d88f37-fe95-45ec-8454-80d0d0190ff5; user=s%3Aadmin.JcV7NX1Ag7X8eh7Qf%2FeHKf78cwDGDhH%2Bh0bM2yXAIQc',
+  'if-none-match': 'W/"7c-15541dc46b8"',
+  'if-modified-since': 'Sat, 11 Jun 2016 23:46:43 GMT' }
+GET / 304 19.654 ms - -
+
+////////////////////////
+
+Server running at http://localhost:3000/
+{ host: 'localhost:3000',
+  connection: 'keep-alive',
+  'upgrade-insecure-requests': '1',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding': 'gzip, deflate, sdch',
+  'accept-language': 'en-US,en;q=0.8' }
+GET / 401 6.904 ms - -
+{ host: 'localhost:3000',
+  connection: 'keep-alive',
+  authorization: 'Basic YWRtaW46cGFzc3dvcmQ=',
+  'upgrade-insecure-requests': '1',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding': 'gzip, deflate, sdch',
+  'accept-language': 'en-US,en;q=0.8',
+  cookie: 'session-id=s%3AE2R9Q7qFFe9_mCq4t_Smyy_AfK0GFUpZ.ByvQOegDVZL4mtDs8IRBpldTzuj%2FwFBDgmj9f%2Bqb0wM' }
+{ host: 'localhost:3000',
+  connection: 'keep-alive',
+  authorization: 'Basic YWRtaW46cGFzc3dvcmQ=',
+  'upgrade-insecure-requests': '1',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding': 'gzip, deflate, sdch',
+  'accept-language': 'en-US,en;q=0.8',
+  cookie: 'session-id=s%3AE2R9Q7qFFe9_mCq4t_Smyy_AfK0GFUpZ.ByvQOegDVZL4mtDs8IRBpldTzuj%2FwFBDgmj9f%2Bqb0wM' }
+GET / 200 10.527 ms - 124
+GET / 200 8.443 ms - 124

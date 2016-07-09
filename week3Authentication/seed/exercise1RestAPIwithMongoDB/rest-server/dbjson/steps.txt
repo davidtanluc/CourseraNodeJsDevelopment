@@ -1,0 +1,18 @@
+express rest-server
+
+
+  install dependencies:
+     $ cd rest-server && npm install
+
+   run the app:
+     $ DEBUG=rest-server:* npm start
+
+
+
+npm install mongoose mongoose-currency --save
+
+npm install express-favicon --save
+
+/////
+npm start
+
