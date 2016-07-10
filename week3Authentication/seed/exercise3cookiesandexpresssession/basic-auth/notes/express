@@ -1,0 +1,20 @@
+GET / 200 1.828 ms - 113
+{ host: 'localhost:3000',
+  connection: 'keep-alive',
+  authorization: 'Basic YWRtaW46cGFzc3dvcmQ=',
+  'cache-control': 'no-cache',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'postman-token': '7ba54bb7-898f-0182-c1d3-d9f4b8f9ad40',
+  accept: '*/*',
+  'accept-encoding': 'gzip, deflate, sdch',
+  'accept-language': 'en-US,en;q=0.8',
+  cookie: 'session-id=s%3AT_IXpVCos855h-tS3djIXTUOe15aaMZX.d93Jsmt8RgZ5qkt3ROrpN74Jo1ncD5ipq3fXie9fGZc; user=s%3Aadmin.JcV7NX1Ag7X8eh7Qf%2FeHKf78cwDGDhH%2Bh0bM2yXAIQc' }
+req.session:  Session {
+  cookie:
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  user: 'admin',
+  __lastAccess: 1468099116978 }
+GET / 200 1.029 ms - 113

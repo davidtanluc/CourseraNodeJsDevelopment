@@ -1,0 +1,29 @@
+ express rest-server
+ npm install mongoose mongoose-currency --save
+
+ install dependencies:
+     $ cd rest-server && npm install
+
+   run the app:
+     $ DEBUG=rest-server:* npm start
+
+POST
+http://localhost:3000/dishes
+Added the dish with id: 5778291550829ecc4eab9b2f
+
+GET
+http://localhost:3000/dishes/5778291550829ecc4eab9b2f
+
+{
+  "_id": "5778291550829ecc4eab9b2f",
+  "updatedAt": "2016-07-02T20:50:29.216Z",
+  "createdAt": "2016-07-02T20:50:29.216Z",
+  "name": "Uthapizza",
+  "image": "images/uthapizza.png",
+  "category": "mains",
+  "price": 499,
+  "description": "A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.",
+  "__v": 0,
+  "comments": [],
+  "label": "Hot"
+}
