@@ -1,0 +1,19 @@
+npm start
+mongod
+
+(POST)
+http://localhost:3000/users/register
+
+(POST)
+http://localhost:3000/users/login
+
+(POST)
+http://localhost:3000/dishes/
+
+ {
+      "name": "Uthapizza",
+      "image": "images/uthapizza.png",
+      "category": "mains",
+      "label": "Hot",
+      "price": "4.99"
+    }

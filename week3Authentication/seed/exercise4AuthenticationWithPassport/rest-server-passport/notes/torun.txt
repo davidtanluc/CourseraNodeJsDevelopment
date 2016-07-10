@@ -27,3 +27,5 @@ http://localhost:3000/dishes/5778291550829ecc4eab9b2f
   "comments": [],
   "label": "Hot"
 }
+
+/////// npm start ////
