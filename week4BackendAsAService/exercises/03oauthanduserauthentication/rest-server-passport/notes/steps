@@ -1,0 +1,6 @@
+npm install passport-facebook --save
+
+Registering your app on Facebook
+
+Go to https://developers.facebook.com/apps/ and register your app by following the instructions there and obtain your App ID and App Secret, and then update config.js with the information.
+Start your server and test your application. You can log in using Facebook by accessing https://localhost:3443/users/facebook which will redirect you to Facebook for authentication and return to your server.
