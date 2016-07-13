@@ -1,0 +1,21 @@
+ npm install strongloop -g
+
+  slc loopback
+
+
+  Davids-MacBook-Pro:04backendasaservice davidtan$  slc loopback
+
+       _-----_
+      |       |    ╭──────────────────────────╮
+      |--(o)--|    │  Let's create a LoopBack │
+     `---------´   │       application!       │
+      ( _´U`_ )    ╰──────────────────────────╯
+      /___A___\   /
+       |  ~  |
+     __'.___.'__
+   ´   `  |° ´ Y `
+
+
+
+
+  slc loopback:model

@@ -2,5 +2,102 @@ npm install passport-facebook --save
 
 Registering your app on Facebook
 
-Go to https://developers.facebook.com/apps/ and register your app by following the instructions there and obtain your App ID and App Secret, and then update config.js with the information.
-Start your server and test your application. You can log in using Facebook by accessing https://localhost:3443/users/facebook which will redirect you to Facebook for authentication and return to your server.
+Go to
+=============================================
+https://developers.facebook.com/apps/
+=============================================
+
+
+and register your app by following the instructions
+
+there and obtain your App ID and App Secret, and then update config.js with the information.
+Start your server and test your application.
+
+You can log in using Facebook by accessing
+
+=============================================
+https://localhost:3443/users/facebook
+=============================================
+
+
+which will redirect you to Facebook for authentication and return to your server.
+
+
+{"status":"Login successful!","success":true,
+
+"token":
+"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwic2VsZWN0ZWQiOnsiaGFzaCI6MCwic2FsdCI6MH0sImdldHRlcnMiOnt9LCJ3YXNQb3B1bGF0ZWQiOmZhbHNlLCJhY3RpdmVQYXRocyI6eyJwYXRocyI6eyJmaXJzdG5hbWUiOiJpbml0IiwibGFzdG5hbWUiOiJpbml0IiwiYWRtaW4iOiJpbml0IiwiX192IjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsIk9hdXRoSWQiOiJpbml0IiwiT2F1dGhUb2tlbiI6ImluaXQiLCJfaWQiOiJpbml0In0sInN0YXRlcyI6eyJpZ25vcmUiOnt9LCJkZWZhdWx0Ijp7fSwiaW5pdCI6eyJfX3YiOnRydWUsImZpcnN0bmFtZSI6dHJ1ZSwibGFzdG5hbWUiOnRydWUsImFkbWluIjp0cnVlLCJ1c2VybmFtZSI6dHJ1ZSwiT2F1dGhJZCI6dHJ1ZSwiT2F1dGhUb2tlbiI6dHJ1ZSwiX2lkIjp0cnVlfSwibW9kaWZ5Ijp7fSwicmVxdWlyZSI6e319LCJzdGF0ZU5hbWVzIjpbInJlcXVpcmUiLCJtb2RpZnkiLCJpbml0IiwiZGVmYXVsdCIsImlnbm9yZSJdfSwiZW1pdHRlciI6eyJkb21haW4iOm51bGwsIl9ldmVudHMiOnt9LCJfZXZlbnRzQ291bnQiOjAsIl9tYXhMaXN0ZW5lcnMiOjB9fSwiaXNOZXciOmZhbHNlLCJfZG9jIjp7ImZpcnN0bmFtZSI6IiIsImxhc3RuYW1lIjoiIiwiYWRtaW4iOmZhbHNlLCJfX3YiOjAsInVzZXJuYW1lIjoiRGF2aWQgVGFuIiwiT2F1dGhJZCI6IjE3MjY5ODE4NzQyMjk5MDgiLCJPYXV0aFRva2VuIjoiRUFBUGpNd0dtV3BBQkFPTFFvZnhaQWU3ZGJmSnk2OWw2bWRWcFhFSHh0a1VjWWRKWWEwZ3E3aFgyR1RsTGxtWkFsQUs2QXpGVUJObkJRODJ2cGkzbzBJSmdaQld2MEpVSUc1NVJlcXI3c1V1clpCQW1hWWlyWkJFT2FhdXR2SHZROGFlUUZjMWdFV3B5NU5FWkF6NGlwTXcxeEJ2bVhFOE9LbXhaQ1pBZWNMVWQzQVpEWkQiLCJfaWQiOiI1Nzg1NmJjODI2ZGJiZjUxM2U1ZDMxN2EifSwiX3ByZXMiOnsiJF9fb3JpZ2luYWxfc2F2ZSI6W251bGwsbnVsbCxudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXX0sImlhdCI6MTQ2ODM2OTEyNCwiZXhwIjoxNDY4MzcyNzI0fQ.7xT74C1i7nmZ0lqc9q2uJqr1o4hdlUGMXOMNOjM_xWI"}
+
+
+//// admin token
+
+{
+  "status": "Login successful!",
+  "success": true,
+  "token":
+  "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwic2VsZWN0ZWQiOnt9LCJnZXR0ZXJzIjp7fSwid2FzUG9wdWxhdGVkIjpmYWxzZSwiYWN0aXZlUGF0aHMiOnsicGF0aHMiOnsiZmlyc3RuYW1lIjoiaW5pdCIsImxhc3RuYW1lIjoiaW5pdCIsImFkbWluIjoiaW5pdCIsIl9fdiI6ImluaXQiLCJ1c2VybmFtZSI6ImluaXQiLCJoYXNoIjoiaW5pdCIsInNhbHQiOiJpbml0IiwiX2lkIjoiaW5pdCJ9LCJzdGF0ZXMiOnsiaWdub3JlIjp7fSwiZGVmYXVsdCI6e30sImluaXQiOnsiX192Ijp0cnVlLCJmaXJzdG5hbWUiOnRydWUsImxhc3RuYW1lIjp0cnVlLCJhZG1pbiI6dHJ1ZSwidXNlcm5hbWUiOnRydWUsImhhc2giOnRydWUsInNhbHQiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJmaXJzdG5hbWUiOiJBZG1pbiIsImxhc3RuYW1lIjoiQWRtaW4iLCJhZG1pbiI6dHJ1ZSwiX192IjowLCJ1c2VybmFtZSI6ImFkbWluIiwiaGFzaCI6IjU5Y2ZlMTFjMGJkMGZlM2FmMzA2ZjUxYzcxNzBiZGVhMDU2NzkzNzE2YmFmMzIwMGI2ZjU2YTBjM2Y0ZDAwOTZlODVjNTgyOTM1ODdkNDgwOTg0Yjk5NGI5YWU1ZWExYjE1YjYyMTI1Y2MzOGQxOWRlNzQ4OTgyYzUwMjhkOTQyOTVjMWYyZTQwZjQxYmJhYTZkNTY4YTQzZDhkYTUxNDMwNDFkMjE4OTE1MTg0ZmE2ZGY0N2ZkZWJmYjQxZTVlYWVjNWJjYmY1MzIyNzc3NWJjNWIxMTI4MDQyMGRjODYwMjQwNGFjY2M0OWJhZGRmNzZmNDk5ZmY0NTU5ODE4MjVlMzlkYmVlNjM5MzAyNzJkYzdhODg3N2FiMmFhMGQ4MTEzNGJjZDVmMGU4ZTM0MDIwN2M2M2Q4Y2MxNjEwZGQxNzBhOWYwMTJjMmI2MDczZDhkMmEwOTAxOGMyNDVlNTgzZWQ0NjE5MWVlOWIxNDc5MTNmYjFmZjZhZjE4NzBkNWJmMTc4NDAyNDcyMzI3MjQ1Yzg2NTA2NjA0ZWNlY2ZmM2Y1Y2VkY2YyZDdhNTU2YmFjNjQ3NDJmZTJiZDlmYmZiOTBjNWViZWZkOThjYzU5ZmNjZDY5OWViM2FjZTgzNzk3M2YyOGYzZWYxZGVkMjkwZTA5NjVmYWUzZWE1M2YyYTdlOTU1MjNkYzcyYWU0M2NmMmU5NzBhMjM4ZTQ0YzczZjk4MWFjOWMyMmI0MmE0MmZkYWM2ZjU4MWM5NTlkNTM1YmE5MDgzNTAxZTZhZWY0MjI5MDAxNWYzZjZkM2Q3NDgzYzI0ZWZiNGIxMTliMDVhZjQwOTYyZTUwZjNiMzRlNDZlN2NlMzJiZjQxZWFhOGU2YTU4NzU3ZTk3OTNhZWMzYmIyNWIyZGIwNjg1Y2E5MjIyMzQxOTA0ZGZkNjRiYWFkZjJjYzZlOTczMzA5MDg5MmNkYjU5ZjkzNWZhMmNmZTAzYWVhYzI5OGI4Y2Q1M2NkZGIwMmM1YmQ4ODFhMDA0NzkwMDZlOWRmNGRhMzA5M2E3ZWQ0MjExYzZhOTVkNWJlN2Y2MzE3MGI0ZjNlZjJkMTVlNzMzODZjZTQ3MzI3NTA1MDc0MGZlNWVmNTg0Y2M1MDRmODNmYWE4Yjg1ZTQyMjU1ZWJiMmI3MDY4NDA5MTkzYzJjMzZhMzRlOTZmODZiYzQzMzA4NmRjM2I3OGNjMmZkZDYzMTUzNmJjNmVhNTA0N2FiYTE2MWI0ZGRhMzU0ODFmMGFlMjYxODc4Mjc4NDcxZmZlMmRjM2M2NTE5YmZhOGUxN2E4MjA5YmViNzQxYzY5MDMyZDQ0MDcyM2JhOTlhNGJlYTc4MDA2OWUiLCJzYWx0IjoiMGExZWZkZDE4NWNiN2FjODdkY2Y5NDBmZGJmZTY4M2FkMTAzNzcyYWFkNDk1YmQxZjFhODBkZDY3NjE4ZjA0ZiIsIl9pZCI6IjU3ODNmMzkzY2Q1N2E4MWQwNzIxYjIwNyJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdfSwiX3Bvc3RzIjp7IiRfX29yaWdpbmFsX3NhdmUiOltdfSwiaWF0IjoxNDY4MzY5OTMxLCJleHAiOjE0NjgzNzM1MzF9.44lTyhpMVcmdVPyzltGd1AlzUoGHrBtzLwXMRHLXV2E"
+}
+
+
+{
+  "57783408211aed6104fdd7e7": {
+    "_id": "57783408211aed6104fdd7e7",
+    "username": "david",
+    "__v": 0,
+    "admin": false,
+    "lastname": "",
+    "firstname": ""
+  },
+  "577840b86548ea590a66cb96": {
+    "_id": "577840b86548ea590a66cb96",
+    "OauthToken": "EAAZARtotyoIkBACUI4ln82DFcJJxpyqst72GYs82rZAH5en08ZAEWlaTHBmxDSd9F4kJxAUuy2ZBtO5PlK2TZCR8Nu3yod7xOIf23RQKzHCqnuZAwm53l86qnbrcUviiCEK5gO56ANPEA0VwYuAdEodTETOMYDjlTWpGhHpN8jWAZDZD",
+    "OauthId": "1722981014629994",
+    "username": "David Tan",
+    "__v": 0,
+    "admin": false,
+    "lastname": "",
+    "firstname": ""
+  },
+  "578285cc3dec54885419c6c7": {
+    "_id": "578285cc3dec54885419c6c7",
+    "username": "davidt",
+    "__v": 0,
+    "admin": false,
+    "lastname": "",
+    "firstname": ""
+  },
+  "5783f074cd57a81d0721b201": {
+    "_id": "5783f074cd57a81d0721b201",
+    "username": "davidtt",
+    "__v": 0,
+    "admin": false,
+    "lastname": "",
+    "firstname": ""
+  },
+  "57856bc826dbbf513e5d317a": {
+    "_id": "57856bc826dbbf513e5d317a",
+    "OauthToken": "EAAPjMwGmWpABAOLQofxZAe7dbfJy69l6mdVpXEHxtkUcYdJYa0gq7hX2GTlLlmZAlAK6AzFUBNnBQ82vpi3o0IJgZBWv0JUIG55Reqr7sUurZBAmaYirZBEOaautvHvQ8aeQFc1gEWpy5NEZAz4ipMw1xBvmXE8OKmxZCZAecLUd3AZDZD",
+    "OauthId": "1726981874229908",
+    "username": "David Tan",
+    "__v": 0,
+    "admin": false,
+    "lastname": "",
+    "firstname": ""
+  },
+  "5783f311cd57a81d0721b206": {
+    "_id": "5783f311cd57a81d0721b206",
+    "username": "grassh",
+    "__v": 0,
+    "admin": false,
+    "lastname": "hopper",
+    "firstname": "grass"
+  },
+  "5783f393cd57a81d0721b207": {
+    "_id": "5783f393cd57a81d0721b207",
+    "username": "admin",
+    "__v": 0,
+    "admin": true,
+    "lastname": "Admin",
+    "firstname": "Admin"
+  }
+}
