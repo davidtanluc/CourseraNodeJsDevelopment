@@ -17,5 +17,97 @@
 
 
 
+? What's the name of your application? loopback-server
+? Enter name of the directory to contain the project: loopback-server
+   create loopback-server/
+     info change the working directory to loopback-server
 
-  slc loopback:model
+? What kind of application do you have in mind? api-server (A LoopBack API server with local User auth)
+? Which version of LoopBack would you like to use? 2.x
+Generating .yo-rc.json
+
+
+
+Next steps:
+
+  Change directory to your app
+    $ cd loopback-server
+
+  Create a model in your app
+    $ slc loopback:model
+
+
+Davids-MacBook-Pro:loopback-server davidtan$ slc loopback:model
+? Enter the model name: dishes
+? Select the data-source to attach dishes to: db (memory)
+? Select model's base class PersistedModel
+? Expose dishes via the REST API? Yes
+? Custom plural form (used to build REST URL):
+? Common model or server only? common
+Let's add some dishes properties now.
+
+Enter an empty property name when done.
+? Property name: name
+   invoke   loopback:property
+? Property type: string
+? Required? Yes
+? Default value[leave blank for none]:
+
+Let's add another dishes property.
+Enter an empty property name when done.
+? Property name: description
+   invoke   loopback:property
+? Property type: string
+? Required? Yes
+? Default value[leave blank for none]:
+
+Let's add another dishes property.
+Enter an empty property name when done.
+? Property name: category
+   invoke   loopback:property
+? Property type: string
+? Required? Yes
+? Default value[leave blank for none]:
+
+Let's add another dishes property.
+Enter an empty property name when done.
+? Property name: image
+   invoke   loopback:property
+? Property type: string
+? Required? Yes
+? Default value[leave blank for none]:
+
+Let's add another dishes property.
+Enter an empty property name when done.
+? Property name: label
+   invoke   loopback:property
+? Property type: string
+? Required? No
+? Default value[leave blank for none]:
+
+Let's add another dishes property.
+Enter an empty property name when done.
+? Property name: price
+   invoke   loopback:property
+? Property type: string
+? Required? Yes
+? Default value[leave blank for none]: 0
+
+Let's add another dishes property.
+Enter an empty property name when done.
+? Property name:
+
+
+  Compose your API, run, deploy, profile, and monitor it with Arc
+    $ slc arc
+
+  Run the app
+    $ node .
+
+
+vids-MacBook-Pro:loopback-server davidtan$ npm install
+Davids-MacBook-Pro:loopback-server davidtan$ node .
+Web server listening at: http://0.0.0.0:3000
+Browse your REST API at http://0.0.0.0:3000/explorer
+
+http://localhost:3000/explorer/#!/dishes/dishes_count
